@@ -1,3 +1,7 @@
+var app = function() {
+  
+}
+
 const drawMap = function () {
   const mapDiv = document.getElementById("main-map");
   const glasgow = [55.86515, -4.25763];
@@ -8,5 +12,7 @@ const drawMap = function () {
   mainMap.addMarker(pyongyang);
 
 }
+
+
 
 window.addEventListener("load", drawMap);
